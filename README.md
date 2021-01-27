@@ -6,4 +6,4 @@ freeCodeCamp project
 * CSS
 
 ## Demo
-https://mariodgc.github.io/ProductLandingPage/
+[Product Landing Page](https://mariodgc.github.io/ProductLandingPage/)
