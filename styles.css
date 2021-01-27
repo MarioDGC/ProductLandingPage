@@ -1,0 +1,102 @@
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 80px;
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#header-img {
+    height: 50%;
+    margin: 20px 80px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-right: 70px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 105px;
+    height: 120vh;
+}
+
+#form {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+#email {
+    border-radius: 3px;
+    border-width: 1px;
+    height: 20px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+#submit {
+    margin: 20px 0px;
+    background-color: rgb(255, 217, 0);
+    border-radius: 3px;
+    border-width: 0px;
+    padding: 8px 20px;
+    font-weight: 900;
+    font-size: medium;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: 33% 66%;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px; /* Tamaño del scroll en vertical */
+    display: none;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: rgb(0, 162, 255);
+    border-radius: 4px;
+}
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.container::-webkit-scrollbar-thumb:hover {
+    background: #0073a8;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+/* Cambiamos el fondo cuando esté en active */
+.container::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #6b6b6b;
+    border-radius: 4px;
+}
+/* Cambiamos el fondo cuando esté en active o hover */
+.container::-webkit-scrollbar-track:hover,
+.container::-webkit-scrollbar-track:active {
+    background: #474747;
+}
